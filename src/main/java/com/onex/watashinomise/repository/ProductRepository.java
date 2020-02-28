@@ -1,4 +1,4 @@
-package com.onex.watashinomise.dao;
+package com.onex.watashinomise.repository;
 
 import com.onex.watashinomise.model.Product;
 import org.springframework.data.domain.Page;
