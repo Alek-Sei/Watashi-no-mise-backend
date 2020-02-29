@@ -13,7 +13,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "/admin/pages", produces = "application/json")
-@CrossOrigin(origins = "*")
 public class AdminPageController {
 
     @Autowired

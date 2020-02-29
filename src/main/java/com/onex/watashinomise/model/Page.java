@@ -83,7 +83,7 @@ public class Page {
                 ", title='" + title + '\'' +
                 ", slug='" + slug + '\'' +
                 ", content='" + content + '\'' +
-                ", sorting=" + sorting +
+                ", sorting=" + sorting + 
                 '}';
     }
 }

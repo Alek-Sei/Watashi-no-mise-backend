@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "/pages", produces = "application/json")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:4200")
 public class PageController {
 
     @Autowired
