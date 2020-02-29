@@ -31,9 +31,8 @@ public class PageController {
         if (optPage.isPresent()) {
             return new ResponseEntity<>(optPage.get(), HttpStatus.OK);
         }
-
+    
         return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
-
 
     }
 }
