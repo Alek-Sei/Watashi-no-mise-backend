@@ -31,8 +31,6 @@ public class BlogController {
         if (optBlog.isPresent()) {
             return new ResponseEntity<>(optBlog.get(), HttpStatus.OK);
         }
-
         return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
-
     }
 }
