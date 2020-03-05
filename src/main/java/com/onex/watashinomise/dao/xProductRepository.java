@@ -7,8 +7,10 @@
 // import org.springframework.web.bind.annotation.CrossOrigin;
 // import org.springframework.web.bind.annotation.RequestParam;
 
-// @CrossOrigin(origins = "*")
+// @CrossOrigin(origins = "https://localhost:4200")
 // public interface ProductRepository extends JpaRepository<Product, Long> {
 
 //     Page<Product> findByCategoryId(@RequestParam("id") Long id, Pageable pageable);
+
+//     Page<Product> findByNameContain(@RequestParam("name") String name, Pageable pageable);
 // }
