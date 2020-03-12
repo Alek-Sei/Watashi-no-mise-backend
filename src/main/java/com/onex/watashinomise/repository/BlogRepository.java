@@ -1,5 +1,5 @@
 package com.onex.watashinomise.repository;
-
+ 
 import com.onex.watashinomise.model.Blog;
 
 import org.springframework.data.jpa.repository.JpaRepository;
